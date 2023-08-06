@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #777FFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container form{
+    background: #fff;
+    width: 915px;
+    height: 650px;
+    padding: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+#logo{
+    width: 77px;
+}
+.container h1{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.form{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form input{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    padding: 0px 15px;
+    border: 1px black solid;
+    border-radius: 7px;
+}
+#mot_de_passe_oublier,#none_compte a{
+    align-self: flex-start;
+    text-decoration: none;
+    color: #000;
+    margin: 10px 0;
+    transition: .2s ease-in-out;
+}
+#mot_de_passe_oublier:hover,#none_compte a:hover{
+    color: #777FFE;
+    text-decoration: underline;
+}
+input[type="submit"]{
+    background: #777FFE;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button{
+    width: 645px;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    margin: 15px 0;
+    background: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#google{
+    width: 45px;
+    margin-right: 15px;
+
+}
+button p{
+    font-size: 16px;
+}
