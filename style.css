@@ -103,6 +103,7 @@ button p{
     border-radius: 15px;
     padding: 15px;
     background: #fff;
+    max-width:90%;
 }
 #logo2{
     width: 150px;
